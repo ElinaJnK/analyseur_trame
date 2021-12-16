@@ -1,0 +1,11 @@
+HOW TO
+Bonjour, bienvenue sur notre petit programme d’analyse de trame que nous avons effectué dans le cadre de l’UE LU3IN003 de Réseaux.
+Pour obtenir une description complète des fonctions et des attributs ainsi qu’une vue d’ensemble du projet, ouvrez le fichier README.html
+Pour lancer le programme, écrire dans votre terminal, à l’intérieur du dossier:
+javac *.java
+java Main vosTrames.txt vosResultatsDAnalyse.txt
+vosTrames.txt: devra contenir la ou les trames que vous souhaitez analyser.
+vosResultatsDAnalyse.txt: devra contenir le fichier texte dans lequel vous souhaitez visionner votre analyse de trames.
+Le résultat s’affiche sur la console et s’écrit dans le fichier que vous avez précisé. Attention! Si les deux arguments ne sont pas renseignés, cela déclenche une erreur.
+Des trames d’exemple sont fournies dans le dossier, la description de ces trames peut être trouvée dans le README.html.
+Les fichiers .java sont les codes sources, les fichiers .class sont les executables.
